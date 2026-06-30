@@ -275,6 +275,31 @@ nav a:hover {
     display:none;
   }
 }
+@media(max-width:992px){
+
+  .navbar{
+    flex-wrap:wrap;
+  }
+
+  .menu-toggle{
+    display:block;
+  }
+
+  .nav-links{
+    width:100%;
+    flex-direction:column;
+    display:none;
+  }
+
+  .nav-links.active{
+    display:flex;
+  }
+
+  .search-box{
+    width:100%;
+    max-width:100%;
+  }
+}
 
 
 /* Hero */
