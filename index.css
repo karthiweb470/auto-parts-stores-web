@@ -230,7 +230,7 @@ nav a:hover {
 }
 
 /* RESPONSIVE */
-@media(max-width:992px){
+@media(max-width:419px){
 
   .navbar{
     flex-wrap:wrap;
@@ -265,7 +265,7 @@ nav a:hover {
   }
 }
 
-@media(max-width:600px){
+@media(max-width:419px){
 
   .logo{
     font-size:1.6rem;
@@ -275,7 +275,7 @@ nav a:hover {
     display:none;
   }
 }
-@media(max-width:992px){
+@media(max-width:419px){
 
   .navbar{
     flex-wrap:wrap;
